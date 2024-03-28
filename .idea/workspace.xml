@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="040d923f-0c2a-4729-a350-683e377b558d" name="Changes" comment="Neuzbaigti testai papildymas" />
+    <list default="true" id="040d923f-0c2a-4729-a350-683e377b558d" name="Changes" comment="Neuzbaigti testai papildymas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +25,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kolibris111"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d8f51805-71d3-4433-9451-9285b85061ed" />
+        <option name="url" value="https://github.com/kolibris111/AutomatiniaiTestai.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -38,17 +54,30 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestClass2.TS1.executor": "Run",
+    "TestNG.TestClass2.TS2.executor": "Run",
     "TestNG.TestClass2.executor": "Run",
     "TestNG.TestClass2.test3.executor": "Run",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestClass2.TS1">
+  <component name="RunManager" selected="TestNG.TestClass2.TS2">
     <configuration name="TestClass2.TS1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomatiniaiTestai" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass2" />
       <option name="METHOD_NAME" value="TS1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass2.TS2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomatiniaiTestai" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass2" />
+      <option name="METHOD_NAME" value="TS2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestClass2.TS2" />
         <item itemvalue="TestNG.TestClass2.TS1" />
         <item itemvalue="TestNG.TestClass2.test3" />
       </list>
@@ -100,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711626959530</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Neuzbaigti testai papildymas">
+      <option name="closed" value="true" />
+      <created>1711627025230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711627025230</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
