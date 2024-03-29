@@ -83,12 +83,12 @@ public class TestClass2 {
     public void atidarytiNarsykle()
     {
         ChromeDriver driver = new ChromeDriver();
-        _globalDriver.get("https://www.google.lt");
+        _globalDriver.get("https://www.google.lt"); ///reikia taisyti
     }
     @Test // anotacija, kuri leidžia javai suprasti, kad tai yra testas ir jį reikia paleisti.
     public void test1(){//jei atidaro teisingai pakūrėme projektą
         WebDriver driver = new ChromeDriver();
-        _globalDriver.get("https://www.skelbiu.lt");//reikia https
+        _globalDriver.get("https://www.skelbiu.lt");//reikia taisytio
     }
     @Test //leisti po viena
     public void test2(){//jei atidaro teisingai pakūrėme projektą
