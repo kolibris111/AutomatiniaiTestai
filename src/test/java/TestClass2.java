@@ -144,9 +144,9 @@ public class TestClass2 {
 
         //Prisijungimo procesas//
 
-        WebElement cookieButton = _globalDriver.findElement(By.xpath("/html/body/div[5]/div[2]/div[1]/div[2]/div[2]/button[1]/p"));
+        WebElement cookieButton = _globalDriver.findElement(By.xpath("/html/body/div[3]/div[2]/div[1]/div[2]/div[2]/button[1]/p"));
         cookieButton.click();
-        WebElement logInButton = _globalDriver.findElement(By.xpath("/html/body/div[2]/div[1]/div[2]/div/a[3]"));
+        WebElement logInButton = _globalDriver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div/a[3]"));
         logInButton.click();
         _globalDriver.findElement(By.id("UserName")).click();
         _globalDriver.findElement(By.id("UserName")).sendKeys("PūkisMiau.");
@@ -184,14 +184,9 @@ public class TestClass2 {
         _globalDriver.findElement(By.id("forward-button")).click();
 
 
-
-
-
-
-
-
-
-
+    }
+    @ Test //Surasti skelbima ir jame esanti tel.nr. ir el.pasta.//
+    public void TS3(){
 
     }
 
