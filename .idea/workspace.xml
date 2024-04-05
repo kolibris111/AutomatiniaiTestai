@@ -26,12 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "kolibris111"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kolibris111&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -40,9 +40,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2eJ6JAnynKs0oykZmr96nhicHQa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,6 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TestClass2.TS1.executor": "Run",
     "TestNG.TestClass2.TS2.executor": "Run",
+    "TestNG.TestClass2.TS3.executor": "Run",
     "TestNG.TestClass2.atidarytiNarsykle.executor": "Run",
     "TestNG.TestClass2.executor": "Run",
     "TestNG.TestClass2.test1.executor": "Run",
@@ -63,7 +64,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestClass2.test1">
+  <component name="RunManager" selected="TestNG.TestClass2.TS3">
     <configuration name="TestClass2.TS1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomatiniaiTestai" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,6 +82,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass2" />
       <option name="METHOD_NAME" value="TS2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass2.TS3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomatiniaiTestai" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass2" />
+      <option name="METHOD_NAME" value="TS3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,25 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass2.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomatiniaiTestai" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass2" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestClass2.TS3" />
         <item itemvalue="TestNG.TestClass2.test1" />
         <item itemvalue="TestNG.TestClass2.atidarytiNarsykle" />
         <item itemvalue="TestNG.TestClass2.TS2" />
         <item itemvalue="TestNG.TestClass2.TS1" />
-        <item itemvalue="TestNG.TestClass2.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711696020435</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Neuzbaigti testai papildymas">
+      <option name="closed" value="true" />
+      <created>1711722708030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711722708030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

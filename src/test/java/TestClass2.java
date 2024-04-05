@@ -187,6 +187,43 @@ public class TestClass2 {
     }
     @ Test //Surasti skelbima ir jame esanti tel.nr. ir el.pasta.//
     public void TS3(){
+        WebElement cookieButton = _globalDriver.findElement(By.xpath("/html/body/div[3]/div[2]/div[1]/div[2]/div[2]/button[1]/p")); //Atidaryti narsykle ir sutikti su slapukais
+        cookieButton.click();
+        _globalDriver.findElement(By.xpath("/html/body/div[1]/div[2]/form/table/tbody/tr/td[1]/input")).sendKeys("Tiems, kurie neskaito"); //I paieskos laukeli suvesti knygos pavadinima
+        _globalDriver.findElement(By.xpath("/html/body/div[1]/div[2]/form/table/tbody/tr/td[2]/input")).click(); //Spaudziame ieskoti
+        WebElement resultText = _globalDriver.findElement(By.xpath("/html/body/div[1]/ul/li[1]/div[1]/h3/a")); //Skelbimas surastas
+        //_globalDriver.findElement(By.xpath("/html/body/div[1]/ul/li[1]/div[1]/h3/a")).click(); //Spaudziame atidaryti skelbima
+        String text = resultText.getText();
+
+        // Ieškomas telefono numeris
+        String phoneNumber = "+37063586485";
+        int startIndex = text.indexOf("Tel:");
+        if (startIndex != -1) {
+            int endIndex = text.indexOf(" ", startIndex + 12);
+            if (endIndex != -1) {
+                phoneNumber = text.substring(startIndex + 12, endIndex);
+            } else {
+                endIndex = text.length();
+                phoneNumber = text.substring(startIndex + 12, endIndex);
+            }
+        }
+        // Ieškome el. pašto adreso
+        String email = "pukismiau123@inbox.lt";
+        startIndex = text.indexOf("@");
+        if (startIndex != -1) {
+            int endIndex = text.indexOf(" ", startIndex);
+            if (endIndex != -1) {
+                email = text.substring(startIndex, endIndex);
+            } else {
+                email = text.substring(startIndex);
+            }
+        }
+
+        String expectedText = "Telefono numeris: " + phoneNumber + "\nEl. pašto adresas: " + email;
+
+        System.out.println("Tikimasi: \n" + expectedText);
+        System.out.println("Rasta: \n" + text);
+
 
     }
 
